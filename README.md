@@ -1,6 +1,6 @@
-# Videogame Store
+# Videogame Wish-list
 
-A store where users can browse for their games and add it to a shopping cart.
+Users can add videogames to a wish-list.
 
 To-do:
 - Make Navbar/Header

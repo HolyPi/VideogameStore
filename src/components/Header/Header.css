@@ -11,9 +11,34 @@
 
 .hero-img img {
     height: 70vh;
-    padding: 10px 0px 0px 160px;
+    padding: 10px 0px 0px 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     filter: contrast(100%);
+}
+
+
+.grid { 
+    max-width: 1026px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 2rem;
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+  /* grid-template-columns: 2fr 1fr 1fr 200px; 
+    grid-template-rows: 1fr 1fr 1fr;  */
+
+}
+
+.cell {
+    flex: 1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }

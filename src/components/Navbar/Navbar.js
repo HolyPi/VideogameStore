@@ -9,8 +9,8 @@ export default function Navbar() {
        
         <nav>
             <ul className="nav-links">
-                <li><Link to="/">Latest</Link></li>
-                <li><Link to="/">Deals</Link></li>
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/">Latest Titles</Link></li>
                 <li><Link to="/">News</Link></li>
             </ul>
         </nav>
