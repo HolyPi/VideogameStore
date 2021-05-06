@@ -7,3 +7,4 @@ To-do:
 - Install Redux
 - Add Mock Data
 - Reducers, Actions
+- Implement API
