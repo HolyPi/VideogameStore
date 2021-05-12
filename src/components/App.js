@@ -12,7 +12,9 @@ function App() {
      <div className="App">
        <Navbar/>
        <Header/>
+       <div className="grid2">
        <WishList/>
+       </div>
        <div className="grid">
        <GameList/>
        </div>

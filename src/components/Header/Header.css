@@ -11,7 +11,7 @@
 
 .hero-img img {
     height: 70vh;
-    padding: 10px 0px 0px 200px;
+    padding: 10px 0px 0px 280px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -20,17 +20,100 @@
 
 
 .grid { 
-    max-width: 1026px;
+    max-width: 500px;
     display: grid;
     grid-template-columns: 100%;
     grid-column-gap: 2rem;
     width: calc(100% - 2rem);
-    margin-left: 1rem;
+    margin-left: 10rem;
     margin-right: 1rem;
 
   /* grid-template-columns: 2fr 1fr 1fr 200px; 
     grid-template-rows: 1fr 1fr 1fr;  */
 
+}
+
+.grid2 {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 2rem;
+    width: calc(100% - 2rem);
+    margin-left: 40rem;
+    margin-right: 1rem;
+    position: absolute;
+}
+
+.grid2 h1 {
+    font-size: 40px;
+}
+
+.ClearWishlistButton {
+    padding: 25px 50px;
+    border-radius: 30px;
+    background-color:  #d50a0af6;
+    color: white;
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    filter: drop-shadow(0 2px 8px rgba(#275efe, 0.32));
+    margin-bottom: 50px; 
+}
+
+.ClearWishlistButton:hover {
+    opacity: 0.5;
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1); 
+}
+
+ul h1 {
+    font-size: 40px;
+}
+
+.remove {
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color:  #7a7a7ac0;
+    color: rgb(255, 255, 255);
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    filter: drop-shadow(0 2px 8px rgba(#275efe, 0.32));
+    margin-bottom: 20px; 
+    margin-left: 20px;
+}
+
+.remove:hover {
+    opacity: 0.5;
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1); 
+}
+
+.add {
+    padding: 16px 32px;
+    border-radius: 30px;
+    background-color:  #d50a0a8f;
+    color: white;
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+    filter: drop-shadow(0 2px 8px rgba(#275efe, 0.32));
+    margin-bottom: 50px;
+}
+
+.add:hover {
+    opacity: 0.5;
+    transition: 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+p {
+    padding-top: 30px;
+    font-size: 14px;
+    color: rgb(51, 50, 50);
+}
+
+.icon {
+    border: 1px solid black;
+    margin-left: 200px;
+    width: 100px;
+    height: 100px;
+}
+
+.grid h1 {
+  font-size: 25px;
+  
 }
 
 .cell {

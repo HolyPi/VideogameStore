@@ -7,7 +7,7 @@ function ClearCartButton() {
     return <button
     className="ClearWishlistButton"
     onClick={() => dispatcher(clearList())}>
-    Clear Cart
+    Clear WishList
 
     </button>
 }

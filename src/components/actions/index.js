@@ -1,6 +1,6 @@
-export const ADD_TO_CART = 'ADD_TO_CART'
-export const CLEAR_CART = 'CLEAR_CART'
-export const REMOVE_FROM_CART = 'REMOVE_FROM_CART'
+export const ADD_TO_LIST = 'ADD_TO_LIST'
+export const CLEAR_LIST = 'CLEAR_LIST'
+export const REMOVE_FROM_LIST = 'REMOVE_FROM_LIST'
 export const ADD_ONE = 'ADD_ONE'
 export const REMOVE_ONE = 'REMOVE_ONE'
 
@@ -20,20 +20,20 @@ export const removeOne = (id) => {
 
 export const removeFromList = (id) => {
     return {
-        type: REMOVE_FROM_CART,
-        payload: {id}
+        type: REMOVE_FROM_LIST,
+        payload: { id }
     }
 }
 // id = 1
 export const addToList = (id) => {
     return {
-        type: ADD_TO_CART,
+        type: ADD_TO_LIST,
         payload: { id }
     }
 }
 
 export const clearList = () => {
     return {
-        type: CLEAR_CART,
+        type: CLEAR_LIST,
     }
 }

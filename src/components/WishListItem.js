@@ -8,14 +8,10 @@ function WishListItem({ id, index, count }) {
 
     return (
         <li>
-            <strong>{name}</strong>
-            <span>x
-                <button>-</button>
-                {count}
-                <button
-                onClick={() => dispatcher(addOne(index))}>+</button>
-            </span>
+            <strong className="item-name">{name}</strong>
+            
             <button
+            className="remove"
             onClick={() => dispatcher(removeFromList(0))}>Remove from Wish-list</button>
         </li>
     )

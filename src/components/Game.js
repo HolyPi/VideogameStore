@@ -11,10 +11,11 @@ function Game({ id }) {
     return (
      <div className="cell">
        <h1>{name}</h1>
+       <img className="icon" src={img}></img>
        <p>{desc}</p>
-       <small>{price}</small> 
-       <img src={img}></img>
-       <button
+       {/* <small>{price}</small>  */}
+       
+       <button className="add"
         onClick={() => dispatcher(addToList(id))}
       >Add to WishList</button>
      </div>
